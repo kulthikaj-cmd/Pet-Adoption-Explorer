@@ -195,7 +195,7 @@ Search input will be normalized before processing.
 Example:
 
 ```python
-search_text = search_text.strip().lower()
+search_text``` = search_text.strip().lower()
 The system will check whether the input is empty.
 If the user does not enter a search term, the application will display an appropriate message instead of performing a search.
 
