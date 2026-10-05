@@ -198,7 +198,9 @@ Example:
 search_text = search_text.strip().lower()
 The system will check whether the input is empty.
 If the user does not enter a search term, the application will display an appropriate message instead of performing a search.
-10. Application Architecture
+
+
+## 10. Application Architecture
 The project will use a modular structure based on a three-layer architecture.
 Presentation Layer
 Responsible for:
