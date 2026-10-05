@@ -217,28 +217,42 @@ Responsible for:
 - Sample pet data
 - Future API integration
 - Data access
-11. Team Roles
-Planner / Team Leader
-- Define project requirements
-- Define Sprint 1 scope
-- Prepare documentation
+## 11. Team Members & Roles
+
+| Member | Role | Main Responsibilities |
+|---|---|---|
+| Donus | Planner / UI Designer | Sprint planning, requirements, UI design, navigation, and documentation |
+| Pheem | Developer / Backend | Application structure, search, filtering, pet data, business logic, and API integration |
+| Fah | Frontend / Debugger | User interface, pet cards, pet details, favorites, testing, debugging, and bug fixing |
+
+### โดนัส — Planner / UI Designer
+
+- Define Sprint goals and scope
+- Define functional requirements
+- Design the application layout
+- Design navigation and user flow
+- Prepare project documentation
 - Coordinate team tasks
-- Review progress
-Coder
-- Develop the Web Application
-- Create UI components
-- Implement navigation
-- Implement search
-- Implement validation
-- Organize project structure
-Debugger / Tester
-- Test navigation
-- Test search
-- Test validation
-- Test empty input
-- Test search with different letter cases
-- Test no-result situations
-- Report and fix bugs
+
+### ภีม — Developer / Backend
+
+- Develop the application structure
+- Prepare sample pet data
+- Implement search functionality
+- Implement filtering logic
+- Develop business logic
+- Prepare API integration for future sprints
+
+### ฟ่า — Frontend / Debugger
+
+- Develop the user interface
+- Create pet cards
+- Create Pet Details page
+- Create Favorites interface
+- Test application features
+- Debug application errors
+- Test invalid inputs and edge cases
+- Find and fix bugs
 12. Development Tasks
 1. Create GitHub repository
 2. Create project structure
