@@ -196,3 +196,117 @@ Example:
 
 ```python
 search_text = search_text.strip().lower()
+The system will check whether the input is empty.
+If the user does not enter a search term, the application will display an appropriate message instead of performing a search.
+10. Application Architecture
+The project will use a modular structure based on a three-layer architecture.
+Presentation Layer
+Responsible for:
+- User Interface
+- Navigation
+- Forms
+- Displaying results
+Business Logic Layer
+Responsible for:
+- Search processing
+- Input validation
+- Filtering logic
+- Favorites logic
+Data Layer
+Responsible for:
+- Sample pet data
+- Future API integration
+- Data access
+11. Team Roles
+Planner / Team Leader
+- Define project requirements
+- Define Sprint 1 scope
+- Prepare documentation
+- Coordinate team tasks
+- Review progress
+Coder
+- Develop the Web Application
+- Create UI components
+- Implement navigation
+- Implement search
+- Implement validation
+- Organize project structure
+Debugger / Tester
+- Test navigation
+- Test search
+- Test validation
+- Test empty input
+- Test search with different letter cases
+- Test no-result situations
+- Report and fix bugs
+12. Development Tasks
+1. Create GitHub repository
+2. Create project structure
+3. Prepare Sprint 1 documentation
+4. Create Home page
+5. Create navigation
+6. Create Explore Pets page
+7. Create sample pet dataset
+8. Create pet cards
+9. Implement search
+10. Implement input validation
+11. Create Pet Details
+12. Create Favorites interface
+13. Test application
+14. Fix errors
+15. Review Sprint 1 requirements
+13. Testing Plan
+Test Case	Input	Expected Result
+Normal search	dog	Dog results are displayed
+Uppercase	DOG	Search works correctly
+Mixed case	DoG	Search works correctly
+Spaces	dog	Spaces are removed
+Empty input	""	Validation message is displayed
+Spaces only	"   "	Validation message is displayed
+No result	elephant	No-result message is displayed
+
+
+14. Definition of Done
+Sprint 1 will be considered complete when:
+- GitHub repository is available
+- Sprint 1 documentation is completed
+- Application can start successfully
+- Home page is available
+- Navigation works
+- Explore Pets page is available
+- Sample pet data is available
+- Search works
+- Input validation works
+- Pet cards are displayed
+- Basic pet details can be viewed
+- Favorites interface is available
+- Application does not crash during normal use
+- Project structure is ready for Sprint 2
+15. Expected Sprint 1 Result
+At the end of Sprint 1, the project should have a functional Web Application foundation.
+Users should be able to open the application, navigate between the main sections, browse sample pets, search for pets, view basic pet information, and use the favorites interface.
+The application structure should be ready for Petfinder API integration and additional features in later sprints.
+16. Future Development
+Sprint 2
+- Petfinder API integration
+- Real pet data
+- Advanced search
+- Filtering
+- Pet details
+- Improved favorites
+- Error and loading states
+Sprint 3
+- Advanced UI/UX
+- Persistent favorites
+- Advanced filtering
+- Testing
+- Performance improvements
+- Deployment preparation
+Final Application
+- Complete Web Application
+- Petfinder API
+- Search and filtering
+- Pet details
+- Favorites
+- Responsive UI
+- Deployment
