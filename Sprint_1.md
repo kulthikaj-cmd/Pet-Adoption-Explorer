@@ -196,25 +196,37 @@ Example:
 
 ```python
 search_text = search_text.strip().lower()
+The system will check whether the input is empty.
+If the user does not enter a search term, the application will display an appropriate message instead of performing a search.
 
 
 
 ## 10. Application Architecture
+
 The project will use a modular structure based on a three-layer architecture.
-Presentation Layer
+
+### Presentation Layer
+
 Responsible for:
+
 - User Interface
 - Navigation
 - Forms
 - Displaying results
-Business Logic Layer
+
+### Business Logic Layer
+
 Responsible for:
+
 - Search processing
 - Input validation
 - Filtering logic
 - Favorites logic
-Data Layer
+
+### Data Layer
+
 Responsible for:
+
 - Sample pet data
 - Future API integration
 - Data access
