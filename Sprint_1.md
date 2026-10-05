@@ -239,9 +239,9 @@ Responsible for:
 
 | Member | Role | Main Responsibilities |
 |---|---|---|
-| Donus | Planner / UI Designer | Sprint planning, requirements, UI design, navigation, and documentation |
-| Pheem | Developer / Backend | Application structure, search, filtering, pet data, business logic, and API integration |
-| Fah | Frontend / Debugger | User interface, pet cards, pet details, favorites, testing, debugging, and bug fixing |
+| โดนัส | Planner / UI Designer | Sprint planning, requirements, UI design, navigation, and documentation |
+| ภีม | Developer / Backend | Application structure, search, filtering, pet data, business logic, and API integration |
+| ฟ่า | Frontend / Debugger | User interface, pet cards, pet details, favorites, testing, debugging, and bug fixing |
 
 ### โดนัส — Planner / UI Designer
 
